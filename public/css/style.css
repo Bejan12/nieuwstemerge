@@ -1,0 +1,60 @@
+
+body {
+    background-color: #F5EEFE;
+}
+
+.error {
+    color: red;
+}
+
+.form-container {
+    max-width: 1100px; 
+    margin: 50px auto; 
+    background-color: white; 
+    padding: 70px;
+    color: black; 
+    font-weight: 530;
+    font-family: sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.form-group {
+    display: flex; /* Use flexbox to position label and input field */
+    margin-bottom: 20px;
+ }
+
+.form-label {
+    font-size: bold;
+}
+
+.form-group .form-label {
+    width: 150px; /* Set a fixed width for the labels */
+    margin-right: 10px; /* Add space between label and input field */
+    text-align: left; /* Align text to the left */
+    position: relative; /* Enable relative positioning */
+    top: 15px; /* Adjust the top position as needed */
+    left: -100px; /* Adjust the left position as needed */
+}
+
+.form-group .form-input {
+    flex: 1; /* Allow input fields to take the remaining space */
+    width: 100%; /* Ensure input fields take full width */
+    max-width: 800px; /* Adjust the maximum width of the input fields */
+    color: black; /* Ensure input text is readable */
+    height: 50px; /* Increase the height of the input fields */
+    padding: 10px; /* Add padding inside the input fields */
+    border-radius: 0; /* Remove border radius to make corners square */
+    outline: 1px solid #F5EEFE; /* Add an outline to the input fields */
+    position: relative; /* Enable relative positioning */
+    top: 0; /* Adjust the top position as needed */
+    left: -80px; /* Adjust the left position as needed */
+}
+
+
+
+
+
+
+
